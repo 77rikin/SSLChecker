@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteInitial]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="initialtest(failed)">
+    <classes>
+      <class name="com.rikin.qa.sslchecker.LaunchWebInitialTest">
+        <methods>
+          <include name="appWebLaunchTest" invocation-numbers="2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rikin.qa.sslchecker.LaunchWebInitialTest -->
+    </classes>
+  </test> <!-- initialtest(failed) -->
+</suite> <!-- Failed suite [SuiteInitial] -->

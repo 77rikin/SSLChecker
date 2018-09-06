@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-06T15:31:41Z" name="Default suite" finished-at="2018-09-06T15:31:44Z" duration-ms="3077">
+    <groups>
+    </groups>
+    <test started-at="2018-09-06T15:31:41Z" name="Default test" finished-at="2018-09-06T15:31:44Z" duration-ms="3077">
+      <class name="com.rikin.qa.sslchecker.LaunchWebInitialTest">
+        <test-method signature="appWebLaunchTest(java.lang.String)[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:41Z" name="appWebLaunchTest" data-provider="getData" finished-at="2018-09-06T15:31:43Z" duration-ms="1818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appWebLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:43Z" name="tearDown" finished-at="2018-09-06T15:31:43Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="appWebLaunchTest(java.lang.String)[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:43Z" name="appWebLaunchTest" data-provider="getData" finished-at="2018-09-06T15:31:43Z" duration-ms="26" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.sersdasded.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[This domain is not secure / Not able to reach : http://www.sersdasded.com/]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: This domain is not secure / Not able to reach : http://www.sersdasded.com/
+at org.testng.Assert.fail(Assert.java:96)
+at com.rikin.qa.sslchecker.VerifyLinkActive.handleCertificates(VerifyLinkActive.java:82)
+at com.rikin.qa.sslchecker.LaunchWebInitialTest.appWebLaunchTest(LaunchWebInitialTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appWebLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:43Z" name="tearDown" finished-at="2018-09-06T15:31:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="appWebLaunchTest(java.lang.String)[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:43Z" name="appWebLaunchTest" data-provider="getData" finished-at="2018-09-06T15:31:44Z" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appWebLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:44Z" name="tearDown" finished-at="2018-09-06T15:31:44Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="appWebLaunchTest(java.lang.String)[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:44Z" name="appWebLaunchTest" data-provider="getData" finished-at="2018-09-06T15:31:44Z" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appWebLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rikin.qa.sslchecker.LaunchWebInitialTest@74751b3]" started-at="2018-09-06T15:31:44Z" name="tearDown" finished-at="2018-09-06T15:31:44Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rikin.qa.sslchecker.LaunchWebInitialTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
